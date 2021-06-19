@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210615 19:56:05.685" rpa="false" schemaversion="2">
+<suite id="s1" name="Arguentos Retornos" source="C:\Projeto\Prime\Prime_experts_jun2021\arguentos_retornos">
+<suite id="s1-s1" name="Argumentos Args Retorno" source="C:\Projeto\Prime\Prime_experts_jun2021\arguentos_retornos\argumentos_args_retorno.robot">
+<test id="s1-s1-t1" name="Testar a criação de e-mails">
+<kw name="Criar e-mail">
+<var>${e-mail}</var>
+<arg>${Dados.nome} ${Dados.sobrenome} ${Dados.idade}</arg>
+<msg timestamp="20210615 19:56:05.725" level="FAIL">Resolving variable '${Dados.nome}' failed: AttributeError: 'str' object has no attribute 'nome'</msg>
+<status status="FAIL" starttime="20210615 19:56:05.724" endtime="20210615 19:56:05.725"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O e-mail formatado é: ${e-mail}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210615 19:56:05.726" endtime="20210615 19:56:05.726"/>
+</kw>
+<status status="FAIL" starttime="20210615 19:56:05.723" endtime="20210615 19:56:05.726">Resolving variable '${Dados.nome}' failed: AttributeError: 'str' object has no attribute 'nome'</status>
+</test>
+<doc>Exercicio de argumentos e retornos</doc>
+<status status="FAIL" starttime="20210615 19:56:05.716" endtime="20210615 19:56:05.728"/>
+</suite>
+<status status="FAIL" starttime="20210615 19:56:05.688" endtime="20210615 19:56:05.729"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Arguentos Retornos">Arguentos Retornos</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Argumentos Args Retorno">Arguentos Retornos.Argumentos Args Retorno</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

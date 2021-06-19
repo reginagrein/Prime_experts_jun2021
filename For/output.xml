@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210615 21:14:39.101" rpa="false" schemaversion="2">
+<suite id="s1" name="For" source="C:\Projeto\Prime\Prime_experts_jun2021\For\for.robot">
+<test id="s1-t1" name="Teste do FOR IN RANGE (para intervalos)">
+<kw name="Imprimir de 0 a 8">
+<msg timestamp="20210615 21:14:39.143" level="FAIL">No keyword with name 'Imprimir de 0 a 8' found.</msg>
+<status status="FAIL" starttime="20210615 21:14:39.143" endtime="20210615 21:14:39.143"/>
+</kw>
+<kw name="Imprimir de 10 a 20">
+<status status="NOT RUN" starttime="20210615 21:14:39.145" endtime="20210615 21:14:39.145"/>
+</kw>
+<status status="FAIL" starttime="20210615 21:14:39.138" endtime="20210615 21:14:39.145">No keyword with name 'Imprimir de 0 a 8' found.</status>
+</test>
+<test id="s1-t2" name="Teste do FOR IN">
+<kw name="(para percorrer listas)">
+<msg timestamp="20210615 21:14:39.158" level="FAIL">No keyword with name '(para percorrer listas)' found.</msg>
+<status status="FAIL" starttime="20210615 21:14:39.158" endtime="20210615 21:14:39.158"/>
+</kw>
+<kw name="Imprimir uma lista">
+<status status="NOT RUN" starttime="20210615 21:14:39.159" endtime="20210615 21:14:39.160"/>
+</kw>
+<status status="FAIL" starttime="20210615 21:14:39.150" endtime="20210615 21:14:39.160">No keyword with name '(para percorrer listas)' found.</status>
+</test>
+<doc>Testes de loops (FOR)</doc>
+<status status="FAIL" starttime="20210615 21:14:39.104" endtime="20210615 21:14:39.165"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="For">For</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
